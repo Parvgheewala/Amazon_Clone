@@ -6,7 +6,10 @@
 .navbar{
     height: 60px;
     background-color: #0f1111;
-    color: white
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .nav-logo{
     height: 50px;
@@ -24,4 +27,79 @@
 
 .border:hover{
     border: 2px solid white;
+}
+.add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111
+}
+.Country{
+    height: 16px;
+    background-size: cover;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+
+}
+.lang1{
+    background-color: #0f1111;
+    color: #f3f3f3;
+    font-weight: bolder;
+    border: none;
+}
+
+span{
+    font-size: 0.7rem ;
+}
+.nav2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
